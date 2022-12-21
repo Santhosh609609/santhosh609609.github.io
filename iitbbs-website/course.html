@@ -1,0 +1,103 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IIT Bhubaneswar Website Design</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>IIT Bhubaneswar offers the following academic programmes.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>B.Tech</h3>
+                <p>The B.Tech programme at the institute is multidimensional; encouraging interdisciplinary studies, it further focuses on extracurricular activities like sports, music, dance, fine arts, entrepreneurship, social work, projects, and in-house internships.</p>
+            </div>
+            <div class="course-col">
+                <h3>M.Tech</h3>
+                <p>The M.Tech programmes at the institute are aimed at developing quality engineering manpower which can provide to the various industries and research and development institutes of the country and abroad and also produce engineers who are tuned to the immediate needs of the society.</p>
+            </div>
+            <div class="course-col">
+                <h3>PHD</h3>
+                <p>PHD at IIT Bhubaneswar can be an ideal choice as we can provide you with the suitable exposure and opportunities required. Pursuing your doctorate under globally recognised faculties in IIT Bhubaneswar can also equip you with the right guidance and mentorship for your research thesis.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+       
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/l1.png">
+                    <h3>World Class Library</h3>
+                    <p>College library stimulates the students to obtain, evaluate and recognize knowledge and to familiarize themselves with the trends of knowledge for further education and learning new disciplines.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/basketball.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>The college playground provides a safe outdoors environment within the college that stimulates students to use their creative energy in healthy interactions with one another.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria.png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>The canteen characteristics include the use of organic food, having a meal policy, number of daily lunch meals served, serving system and outsourced to external contractors.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>IIT bhubaneswar  team makes sure to be accessible to everyone all the time.<br> We have a dedicated team to respond to every query of yours and keep the information up to date.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Registrar IIT Bhubaneswar</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
